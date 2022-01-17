@@ -1,0 +1,7 @@
+<h2 class='mt-5 text-lg font-bold'>Comments:</h2>
+
+<div id='comments'>
+  <%= render post.comments %>
+</div>
+
+<%= render 'comments/form', post: @post %>
